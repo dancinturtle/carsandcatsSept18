@@ -1,0 +1,17 @@
+body{
+  background-color:  black;
+
+}
+
+h1{
+  color : orange;
+  text-align: center;
+
+}
+
+img{
+  width : 400px;
+  height : 300px;
+  display : inline-block;
+  margin : 2em;
+}

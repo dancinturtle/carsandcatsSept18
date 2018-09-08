@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>catDetails.ejs</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+<body>
+	<div class="container">
+		
+		<div class="header">
+			<h1>Details Page</h1>
+		</div>
+		
+		<div class="info">
+			<img src="/images/cat<%= detail.id %>.jpg" />
+			<h3> Name: <%= detail.name %> </h3>
+			<p> Favortite food: <%= detail.favorite_food %> </p>
+			<p> Age: <%= detail.age %> </p>
+			<p> Hobby: </p>
+			<ul>
+				<% for(var i of detail.hobby){ %>
+					<li> <%= i %> </li>
+				<% } %>
+			</ul>
+		</div>
+
+
+	</div>
+	
+</body>
+</html>
+

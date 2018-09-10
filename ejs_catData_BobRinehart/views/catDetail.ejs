@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Express Cars!</title>
+
+	<style>
+		div{
+			margin-left: 300px;
+		}
+		img{
+			height: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<% for (var c in cats) { %>
+			<h1>Name: <%= cats[c].name  %></h1>
+			<img src="/<%= cats[c].image %>" type="jpeg">
+			<h4>Human: <%= cats[c].human %></h4>
+			<h4>Favorite Foods: </h4>
+			<ul>
+			<% for (var ff in cats[c].favorite_foods) { %>
+				<li><h5><%= cats[c].favorite_foods[ff] %></h5></li>
+				<% } %>
+			</ul>
+		<% } %>
+		</div>
+</body>
+</html>

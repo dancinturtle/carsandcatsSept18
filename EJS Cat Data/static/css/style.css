@@ -1,0 +1,22 @@
+.container {
+	margin: 0 auto;
+	position: relative;
+    text-align: center;
+}
+
+img {
+	width: 400px;
+	height: 250px;
+}
+
+.header h1{
+	color: blue;
+}
+
+.header {
+	background-color: lightgrey;
+}
+
+.info li {
+	list-style-position: inside;
+}

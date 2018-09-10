@@ -1,0 +1,12 @@
+body{
+  background-color:  black;
+}
+
+.container{
+  color : orange;
+  text-align: center;
+}
+
+form{
+  font-size: 2em;
+}
